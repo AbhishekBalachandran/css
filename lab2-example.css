@@ -1,0 +1,28 @@
+h1{
+	font-weight: bold;
+  }
+
+p{
+	display: block;
+ }
+
+div{
+	width: 600px;
+	height: 180px;
+	border: solid #FDFDFF;
+	padding: 30px;
+	margin-top: 80px;
+	margin-left: 430px;
+	border-radius: 10px;
+	background-color: #FDFDFF;
+	}
+
+body{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #f0f0f2;	
+	}
+
+a:link{
+	color: #38488f;
+	text-decoration: none;
+	}
