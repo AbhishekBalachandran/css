@@ -1,9 +1,17 @@
 <!doctype html>
 <html><head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<title>Table| Using CSS</title>
+	<link rel="stylesheet" href="../files/bootstrap.min.css">
+	<script src="../files/jquery.min.js"></script>
+	<script src="../files/popper.min.js"></script>
+	<script src="../files/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/483a320e77.js" crossorigin="anonymous"></script>
 	<style>
+		body{
+			border: solid thick;
+			}
+		
 		table, th, td{
 			border: 1px solid #000000;
 		}
@@ -16,13 +24,12 @@
 			text-align: left;
 		}
 		
-		body{
-			border: solid thick;
-		}
-		
 		div{
 			
 			margin: 100px;
+		}
+		ul{
+			float: right;
 		}
 	</style>
 </head>
@@ -52,11 +59,11 @@
 		<table>
 			<tr>
 				<th>#</th>
-				<th>Name</th>
+				<th>Name <span><i class="fas fa-sort"></i></span></th>
 				<th>Address</th>
-				<th>City</th>
+				<th>City <span><i class="fas fa-sort"></i></span></th>
 				<th>Pincode</th>
-				<th>Country</th>
+				<th>Country <span><i class="fas fa-sort"></i></span></th>
 				<th>Actions</th>
 			</tr>
 			
@@ -128,17 +135,13 @@
 	
 	<div>
 		<p>Showing <strong>5</strong> out of <strong>25</strong> entries</p>
-<!--
-		<ul class="pagination" id="1" style="float: right">
+		<ul class="pagination" id="3">
 			<li class="page-item"><a class="page-link" href="#">Previous</a></li>
-			<li class="page-item"><a class="page-link" href="#">1</a></li>
+			<li class="page-item active"><a class="page-link" href="#">1</a></li>
 			<li class="page-item"><a class="page-link" href="#">2</a></li>
 			<li class="page-item"><a class="page-link" href="#">3</a></li>
-			<li class="page-item"><a class="page-link" href="#">4</a></li>
-			<li class="page-item"><a class="page-link" href="#">5</a></li>
-			<li class="page-item"><a class="page-link" href="#">Next</a></li>
+			<li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
 		</ul>
--->
 	</div>
 </body>
 </html>
