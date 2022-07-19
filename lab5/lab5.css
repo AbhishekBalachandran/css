@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+.box-form {
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	display: flex;
+	flex: 1 1 100%;
+	align-items: stretch;
+	align-content: center;
+/*	justify-content: space-between;*/
+	box-shadow: 0 0 20px 6px ;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.box-form div {
+	height: auto;
+}
+
+.box-form .left-div {
+	color: #ffffff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #151922;
+	overflow: hidden;
+	width: 725px;
+}
+.box-form .left-div {
+	overflow: hidden;
+	padding: 50px;
+}
+.box-form .left-div .overlay {
+	padding: 40px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	
+}
+.box-form .left-div .overlay h1 {
+/*	font-size: 30pt;*/
+	font-weight: 300;
+}
+.box-form .left-div .text1 {
+	font-weight: 100;
+	color: darkgrey;
+}
+.box-form .left-div .overlay .text2 {
+	font-size: 15px;
+	font-weight: 100;
+	color: darkgrey;
+}
+.box-form .left-div .overlay .reg {
+	background-color: #00A875;
+	color: #FFFFFF;
+	line-height: 20px;
+	letter-transform: uppercase;
+	letter-spacing: 1px;
+}
+.box-form .left-div .overlay .footer {
+	display: flex;
+	margin-top: 150px;
+	margin-bottom: 2px;
+	font-size: 12px;
+	color: darkgrey;
+	justify-content: space-between;
+}
+.box-form .left-div .overlay .footer a {
+	color: darkgrey;
+	text-decoration: none;
+}
+.box-form .left-div .overlay .footer .dropdown {
+	background-color: #151922;
+	border: none;
+	color: darkgrey;
+	font-size: 12px;
+}
+.box-form .right-div {
+	overflow: hidden;
+	color: #FFFFFF;
+	background-color: #00A875;
+}
+.box-form .right-div .right-overlay{
+	padding: 0px;
+	margin-top: 200px;
+	margin-left: 50px;
+	margin-bottom: 300px;
+}
+.box-form .right-div .text-3 {
+		font-size: 20px; 
+		font-weight: 100;
+}
+.input {
+  width: 75%;
+  /* padding: 12px 20px;
+  margin: 8px 0; */
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(245, 241, 241);
+  background-color: transparent;
+  margin-bottom: 8px;
+	color: #ffffff; 
+}
+.box-form .right-div button {
+	color: #00A875;
+	font-weight: bold;
+	letter-transform: uppercase;
+	letter-spacing: 1px;
+	border: thin #00A875;
+}
+.box-form .right-div a {
+	font-size: 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
